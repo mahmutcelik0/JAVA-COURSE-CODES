@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+
+<?import javafx.scene.layout.FlowPane?>
+
+<!--<FlowPane xmlns:fx="http://javafx.com/fxml"-->
+<!--          fx:controller="com.example.flowpanelayout.HelloController">-->
+<!--    <Button text="FIRST-BUTTON" prefHeight="50" prefWidth="100"/>-->
+<!--    <Button text="SECOND-BUTTON" prefHeight="50" prefWidth="100"/>-->
+<!--    <Button text="THIRD-BUTTON" prefHeight="50" prefWidth="100"/>-->
+<!--    <Button text="FOURTH-BUTTON" prefHeight="50" prefWidth="100"/>-->
+<!--    <Button text="FIFTH-BUTTON" prefHeight="50" prefWidth="100"/>-->
+<!--    <Button text="SIXTH-BUTTON" prefHeight="50" prefWidth="100"/>-->
+<!--    <Button text="SEVENTH-BUTTON" prefHeight="50" prefWidth="100"/>-->
+
+
+<!--</FlowPane>-->
+
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane>
+    <left>
+        <FlowPane orientation="VERTICAL">
+            <Button text="FIRST-BUTTON" prefWidth="100" prefHeight="50"/>
+            <Button text="SECOND-BUTTON" prefWidth="100" prefHeight="50"/>
+            <Button text="THIRD-BUTTON" prefWidth="100" prefHeight="50"/>
+            <Button text="FOURTH-BUTTON" prefWidth="100" prefHeight="50"/>
+            <Button text="FIFTH-BUTTON" prefWidth="100" prefHeight="50"/>
+            <Button text="SIXTH-BUTTON" prefWidth="100" prefHeight="50"/>
+            <Button text="SEVENTH-BUTTON" prefWidth="100" prefHeight="50"/>
+        </FlowPane>
+    </left>
+
+    <right>
+        <VBox >
+            <Button text="FIRST-BUTTON" prefWidth="100" prefHeight="50"/>
+            <Button text="SECOND-BUTTON" prefWidth="100" prefHeight="50"/>
+            <Button text="THIRD-BUTTON" prefWidth="100" prefHeight="50"/>
+            <Button text="FOURTH-BUTTON" prefWidth="100" prefHeight="50"/>
+            <Button text="FIFTH-BUTTON" prefWidth="100" prefHeight="50"/>
+            <Button text="SIXTH-BUTTON" prefWidth="100" prefHeight="50"/>
+            <Button text="SEVENTH-BUTTON" prefWidth="100" prefHeight="50"/>
+        </VBox>
+    </right>
+
+</BorderPane>

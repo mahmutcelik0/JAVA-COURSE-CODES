@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+
+
+<?import javafx.scene.layout.BorderPane?>
+<!--FIRST ONE-->
+<!--<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200" prefWidth="200">-->
+<!--    <top>-->
+<!--        <Button text="TOPBUTTON" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"/>-->
+<!--    </top>-->
+<!--    <left>-->
+<!--        <Button text="LEFTBUTTON" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"/>-->
+<!--    </left>-->
+<!--    <right>-->
+<!--        <Button text="RIGHTBUTTON" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"/>-->
+<!--    </right>-->
+<!--    <center>-->
+<!--        <Button text="CENTERBUTTON" />-->
+<!--    </center>-->
+<!--    <bottom>-->
+<!--        <Button text="BOTTOMBUTTON" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"/>-->
+<!--    </bottom>-->
+
+
+<!--</BorderPane>-->
+
+
+<!--SECOND ONE-->
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<BorderPane fx:controller="com.example.borderpanelayout.HelloController" xmlns:fx="htpp://javafx.com/fxml">
+    <top>
+        <StackPane style="-fx-background-color:red;">
+            <Label text="TOP LABEL" style="-fx-background-color:blue;"/>
+        </StackPane>
+    </top>
+    <left>
+        <StackPane style="-fx-background-color:blue;">
+            <Label text="LEFT LABELLABELLABELLABELLABELLABEL"/>
+        </StackPane>
+    </left>
+    <right>
+        <StackPane style="-fx-background-color:lightgreen;">
+            <Label text="RIGHT LABEL"/>
+        </StackPane>
+    </right>
+    <center>
+        <StackPane style="-fx-background-color:purple;">
+            <Label text="CENTER LABEL"/>
+        </StackPane>
+    </center>
+
+    <bottom>
+
+        <HBox style="-fx-background-color:green;" spacing="20" alignment="CENTER_RIGHT">
+            <padding>
+                <Insets bottom="10" top="10" right="10" left="10"/>
+            </padding>
+            <Button text="Okay" prefWidth="50" />
+            <Button text="Cancel" prefWidth="50"/>
+            <Button text="Help" prefWidth="50"/>
+        </HBox>
+    </bottom>
+
+
+</BorderPane>

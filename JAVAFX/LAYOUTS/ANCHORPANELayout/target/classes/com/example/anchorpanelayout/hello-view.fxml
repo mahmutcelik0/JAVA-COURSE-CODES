@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<AnchorPane
+        fx:controller="com.example.anchorpanelayout.HelloController" xmlns:fx="http://javafx.com/javafx">
+    <Button layoutX="48.0" layoutY="35.0" mnemonicParsing="false" text="TOP-LEFT BUTTON"
+            AnchorPane.leftAnchor="48.0"  AnchorPane.topAnchor="35.0"/>
+    <Button layoutX="48.0" layoutY="35.0" text="TOP-RIGHT BUTTON" AnchorPane.rightAnchor="48.0" AnchorPane.topAnchor="35.0"/>
+    <Button layoutX="48.0" layoutY="35.0" text="BOTTOM-LEFT BUTTON" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="48.0"/>
+    <Button layoutX="48.0" layoutY="35.0" text="BOTTOM-RIGHT BUTTON" AnchorPane.bottomAnchor="35.0" AnchorPane.rightAnchor="48.0"/>
+</AnchorPane>
