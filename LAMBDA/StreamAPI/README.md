@@ -292,7 +292,7 @@ MORE ON REDUCE → [https://www.geeksforgeeks.org/stream-reduce-java-examples/](
 
 	
 	
-####EXAMPLE OF USAGE STREAM API METHODS
+# EXAMPLE OF USAGE STREAM API METHODS
 
 package com.mahmutcelik;
 import java.util.*;
