@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ListView?>
+<?import java.lang.Integer?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.todolistexample.HelloController">
+    <left>
+        <ListView fx:id="listView" onMouseClicked="#eventHandler">
+
+        </ListView>
+    </left>
+
+    <center>
+
+        <VBox style="-fx-background-color:white">
+<!--            VBox.vgrow="ALWAYS" olabildiği tüm genişliği almayı sağlar-->
+            <TextArea fx:id="centerTextArea" VBox.vgrow="ALWAYS"/>
+            <HBox>
+                <Label text="Due: ">
+                    <font>
+                        <Font name="Times New Roman bold" size="20"/>
+                    </font>
+                </Label>
+                <Label fx:id="deadlineLabel">
+                    <font>
+                        <Font name="Times New Roman bold" size="20"/>
+                    </font>
+                </Label>
+            </HBox>
+        </VBox>
+
+
+    </center>
+
+</BorderPane>
