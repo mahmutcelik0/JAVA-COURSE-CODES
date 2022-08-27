@@ -291,9 +291,10 @@ The sum of all elements is 16
 MORE ON REDUCE → [https://www.geeksforgeeks.org/stream-reduce-java-examples/](https://www.geeksforgeeks.org/stream-reduce-java-examples/)
 
 	
-#EXAMPLE OF USAGE STREAM API METHODS
-	package com.mahmutcelik;
+	
+####EXAMPLE OF USAGE STREAM API METHODS
 
+package com.mahmutcelik;
 import java.util.*;
 import java.lang.String;
 import java.util.stream.Collectors;
