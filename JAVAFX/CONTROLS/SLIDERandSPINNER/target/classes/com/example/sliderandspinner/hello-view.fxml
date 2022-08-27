@@ -1,0 +1,37 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Accordion?>
+<GridPane xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.example.sliderandspinner.HelloController" alignment="CENTER" >
+    <VBox spacing="20">
+        <Slider min="0" max="100" showTickLabels="true" showTickMarks="true" minorTickCount="4" snapToTicks="true"/>
+
+        <Spinner min="0" max="100" GridPane.rowIndex="3" initialValue="0" editable="true"/>
+
+        <ColorPicker GridPane.rowIndex="7"/>
+
+        <DatePicker GridPane.rowIndex="9"/>
+
+        <Accordion GridPane.rowIndex="10" expandedPane="$tp1">
+            <panes>
+                <TitledPane fx:id="tp1" text="FIRST PANE" GridPane.rowIndex="10">
+                    <Label text="FIRST OPTION"/>
+                </TitledPane>
+                <TitledPane text="SECOND PANE" GridPane.rowIndex="10">
+                    <Label text="SECOND OPTION"/>
+                </TitledPane>
+                <TitledPane text="THIRD PANE" GridPane.rowIndex="10">
+                    <Label text="THIRD OPTION"/>
+                </TitledPane>
+            </panes>
+        </Accordion>
+    </VBox>
+
+</GridPane>

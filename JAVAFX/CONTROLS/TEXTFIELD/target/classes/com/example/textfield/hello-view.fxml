@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<GridPane xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.example.textfield.HelloController">
+    <VBox spacing="20">
+        <padding>
+            <Insets top="20" bottom="10" left="20"/>
+        </padding>
+
+        <TextField/>
+        <TextField/>
+        <PasswordField/>
+
+    </VBox>
+</GridPane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+
+<!--<GridPane xmlns:fx="http://javafx.com/fxml"-->
+<!--          fx:controller="com.example.radiobutton.HelloController" alignment="CENTER">-->
+
+<!--    <fx:define>-->
+<!--        <ToggleGroup fx:id="colorToggleGroup"/>-->
+<!--    </fx:define>-->
+
+<!--    <RadioButton GridPane.columnIndex="0" GridPane.rowIndex="0" text="Red" ToggleGroup="$colorToggleGroup"/>-->
+<!--    <RadioButton GridPane.rowIndex="1" GridPane.columnIndex="0" text="Green" ToggleGroup="$colorToggleGroup"/>-->
+<!--    <RadioButton GridPane.rowIndex="2" GridPane.columnIndex="0" text="Blue" ToggleGroup="$colorToggleGroup" selected="true"/>-->
+
+<!--</GridPane>-->
+
+<!--<?import javafx.scene.layout.VBox?>-->
+<!--<?import javafx.scene.control.CheckBox?>-->
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.layout.HBox?>-->
+<!--<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.radiobutton.HelloController" alignment="CENTER">-->
+<!--    <VBox>-->
+<!--        <CheckBox text="BUY DIRECTLY" GridPane.rowIndex="0" GridPane.columnIndex="0"/>-->
+<!--        <CheckBox text="ADD TO BASKET" GridPane.rowIndex="1" GridPane.columnIndex="0"/>-->
+<!--        <HBox GridPane.rowIndex="2" GridPane.columnIndex="0">-->
+<!--            <Label text="SELECT COLOR:"/>-->
+
+<!--            <fx:define>-->
+<!--                <ToggleGroup fx:id="colorToggleGroup"/>-->
+<!--            </fx:define>-->
+
+<!--            <RadioButton text="GREEN" ToggleGroup="$colorToggleGroup"/>-->
+<!--            <RadioButton text="RED" ToggleGroup="$colorToggleGroup"/>-->
+<!--            <RadioButton text="BLUE" ToggleGroup="$colorToggleGroup"/>-->
+<!--        </HBox>-->
+
+<!--    </VBox>-->
+
+<!--</GridPane>-->
+
+
+<?import javafx.scene.layout.HBox?>
+<GridPane alignment="CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.radiobutton.HelloController">
+    <HBox GridPane.rowIndex="0" GridPane.columnIndex="0">
+        <fx:define>
+            <ToggleGroup fx:id="colorToggleGroup"/>
+        </fx:define>
+
+        <ToggleButton text="HELLO" ToggleGroup="$colorToggleGroup"/>
+        <ToggleButton text="GOODBYE" ToggleGroup="$colorToggleGroup"/>
+        <ToggleButton text="YES SIR" ToggleGroup="$colorToggleGroup"/>
+    </HBox>
+</GridPane>
